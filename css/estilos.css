@@ -7,6 +7,7 @@
     /*Texto No Select */
     user-select: none;
 
+
 }
 :root {
     --main-color: #000000;
@@ -62,10 +63,7 @@ body {
     align-content: center;
     margin: 10px;
     border: none;
-
-
 }
-
 .bt-msj-2 {
     width: 150px;
     padding: 10px;
@@ -1004,9 +1002,12 @@ p {
 }
 .youtube{
     width: 250px;
+    height: 450px;
     margin: 30px;
-    height: auto;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*--------------inglesar contraseña------------*/
 .pasaword{
